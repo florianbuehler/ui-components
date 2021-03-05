@@ -8,6 +8,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "eslint": "eslint . --ext ts,tsx",
+    "fix-eslint": "eslint src --ext ts,tsx --fix",
     "eject": "react-scripts eject"
   },
   "browserslist": {
@@ -32,6 +34,12 @@
   "devDependencies": {
     "@types/node": "^12.20.4",
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1"
+    "@types/react-dom": "^17.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
   }
 }
