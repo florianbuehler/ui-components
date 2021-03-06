@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import { Story, Meta } from '@storybook/react'
+import StoryBookLayout from 'components/StoryBookLayout'
 import GlassUi from './index'
 
 export default {
@@ -7,4 +8,8 @@ export default {
   component: GlassUi
 } as Meta
 
-export const GlassUiStory: Story = () => <GlassUi />
+export const GlassUiStory: Story = () => (
+  <StoryBookLayout>
+    <GlassUi />
+  </StoryBookLayout>
+)
