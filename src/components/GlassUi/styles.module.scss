@@ -8,8 +8,32 @@
 }
 
 .glass {
+  z-index: 2;
   min-width: 60%;
   min-height: 60%;
+  backdrop-filter: blur(2rem);
+  background: #fff;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
   border-radius: 2rem;
 }
+
+.circle1,
+.circle2 {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background: #fff;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 5%;
+  right: 12%;
+}
+
+.circle2 {
+  bottom: 5%;
+  left: 12%;
+}
+
