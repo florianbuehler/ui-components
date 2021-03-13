@@ -9,6 +9,8 @@ import upcoming from 'assets/images/upcoming.png'
 import library from 'assets/images/library.png'
 import controller from 'assets/images/controller.png'
 import assassinsCreed from 'assets/images/assassins.png'
+import sackboy from 'assets/images/sackboy.png'
+import spiderman from 'assets/images/spiderman.png'
 
 const GlassUi: React.FC = (): React.ReactElement => {
   return (
@@ -54,27 +56,27 @@ const GlassUi: React.FC = (): React.ReactElement => {
               <div className={classes.cardInfo}>
                 <h2>Assassins Creed Valhalla</h2>
                 <p>PS5 Version</p>
-                <div className={classes.progress} />
+                <div className={[classes.progress, classes.progress1].join(' ')} />
               </div>
               <h2 className={classes.percentage}>60%</h2>
             </li>
             <li className={classes.card}>
-              <img src={assassinsCreed} alt="Assassins Creed" />
+              <img src={sackboy} alt="Sackboy" />
               <div className={classes.cardInfo}>
-                <h2>Assassins Creed Valhalla</h2>
+                <h2>Sackboy</h2>
                 <p>PS5 Version</p>
-                <div className={classes.progress} />
+                <div className={[classes.progress, classes.progress2].join(' ')} />
               </div>
-              <h2 className={classes.percentage}>60%</h2>
+              <h2 className={classes.percentage}>75%</h2>
             </li>
             <li className={classes.card}>
-              <img src={assassinsCreed} alt="Assassins Creed" />
+              <img src={spiderman} alt="Spiderman" />
               <div className={classes.cardInfo}>
-                <h2>Assassins Creed Valhalla</h2>
+                <h2>Spiderman</h2>
                 <p>PS5 Version</p>
-                <div className={classes.progress} />
+                <div className={[classes.progress, classes.progress3].join(' ')} />
               </div>
-              <h2 className={classes.percentage}>60%</h2>
+              <h2 className={classes.percentage}>40%</h2>
             </li>
           </ul>
         </div>
