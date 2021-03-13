@@ -23,19 +23,19 @@ const GlassUi: React.FC = (): React.ReactElement => {
           <ul className={classes.links}>
             <li className={classes.link}>
               <img src={twitch} alt="Twitch" />
-              <h2>Streams</h2>
+              <a href="#">Streams</a>
             </li>
             <li className={classes.link}>
               <img src={steam} alt="Steam" />
-              <h2>Games</h2>
+              <a href="#">Games</a>
             </li>
             <li className={classes.link}>
               <img src={upcoming} alt="Upcoming" />
-              <h2>New</h2>
+              <a href="#">New</a>
             </li>
             <li className={classes.link}>
               <img src={library} alt="Library" />
-              <h2>Library</h2>
+              <a href="#">Library</a>
             </li>
           </ul>
           <div className={classes.pro}>
