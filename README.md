@@ -1,5 +1,8 @@
 # UI Components
 
+A small draft collection of nice / fancy / interesting UI elements. 
+Storybook is used to easily display each element in a separate tab.
+
 ## Getting started
 
 To get started, first clone the project using
@@ -16,6 +19,8 @@ to install all required packages in the `node_modules` folder.
 
 
 ## Development
+
+The following commands are available after checking out the repository and can be useful during development phase:
 
 ```shell script
 npm run lint
@@ -37,6 +42,17 @@ npm run fix-eslint
 ```
 If you don't want to fix the code quality issues found by Eslint & Prettier by hand you can simply run `fix-eslint`.
 It will try to fix all violations and output the violations which couldn't be fixed automatically.
+
+```shell script
+npm run stylelint
+```
+Similar to `fix-lint` showing all code style deviations for .ts and .tsx files by running Eslint & Prettier,
+`fix-stylint` runs the [stylelint](https://stylelint.io/) linter, to enforce consistent and clean style sheets (for both .css and .scss files).
+
+```shell script
+npm run fix-stylelint
+```
+Tries to fix all violations found by `stylelint`.
 
 ```shell script
 npm run eject
