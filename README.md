@@ -1,7 +1,10 @@
 # UI Components
 
-A small draft collection of nice / fancy / interesting UI elements. 
-Storybook is used to easily display each element in a separate tab.
+A small draft collection of nice / fancy / interesting UI elements. Currently it inludes
+
+- a Glass UI
+
+[Storybook](https://storybook.js.org/) is added to the repository, to easily display each element in a separate page / tab. See below for an instruction for how to use it.
 
 ## Getting started
 
@@ -21,6 +24,11 @@ to install all required packages in the `node_modules` folder.
 ## Development
 
 The following commands are available after checking out the repository and can be useful during development phase:
+
+```shell script
+npm run storybook
+```
+The probably most important command in this repository. It starts the storybook on `http://localhost:6006` allowing to view the separate components, views, pages, etc. in isolation.
 
 ```shell script
 npm run lint
