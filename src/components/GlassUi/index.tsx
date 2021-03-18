@@ -2,15 +2,15 @@
 import classes from './styles.module.scss'
 
 // images
-import avatar from 'assets/images/avatar.png'
-import twitch from 'assets/images/twitch.png'
-import steam from 'assets/images/steam.png'
-import upcoming from 'assets/images/upcoming.png'
-import library from 'assets/images/library.png'
-import controller from 'assets/images/controller.png'
-import assassinsCreed from 'assets/images/assassins.png'
-import sackboy from 'assets/images/sackboy.png'
-import spiderman from 'assets/images/spiderman.png'
+import avatar from 'assets/images/glassUi/avatar.png'
+import twitch from 'assets/images/glassUi/twitch.png'
+import steam from 'assets/images/glassUi/steam.png'
+import upcoming from 'assets/images/glassUi/upcoming.png'
+import library from 'assets/images/glassUi/library.png'
+import controller from 'assets/images/glassUi/controller.png'
+import assassinsCreed from 'assets/images/glassUi/assassins.png'
+import sackboy from 'assets/images/glassUi/sackboy.png'
+import spiderman from 'assets/images/glassUi/spiderman.png'
 
 const GlassUi: React.FC = (): React.ReactElement => {
   return (
